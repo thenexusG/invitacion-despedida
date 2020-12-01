@@ -1,0 +1,39 @@
+body{
+    background-color: #ffd7a7;
+}
+#box {
+    background-color: #ffe4c4; 
+     position: absolute; 
+     padding: 10%; 
+     top: 25%;
+} 
+
+#carta, #tapa{
+    position: absolute;
+}
+
+#carta{
+    width: 250px; 
+    height: 200px;
+}
+
+#tapa{
+    width: 250px; 
+    height: 200px;
+    transform-origin: 0 0; 
+    transition: transform 1s; 
+}
+
+#invitacion{
+    padding-left: 41%;
+    padding-top: 10%;
+    transition: transform .6s ease 0.3s;
+}
+
+#box:hover #tapa{ 
+    transform: rotatex(170deg); 
+} 
+
+#box:hover #invitacion{ 
+    transform: translate(100px, -120px) scale(9);
+}
